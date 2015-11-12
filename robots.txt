@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /search/
+
+Sitemap: http://trustafriend.com/sitemap.xml

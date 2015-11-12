@@ -1,0 +1,350 @@
+html {height: 100%; }
+body 
+{ 
+  color: black; 
+  background: #CDE4FF url(/images/bodybg.png) 0 0 repeat-x;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 12pt;
+  line-height: 150%;
+  max-width: 1024px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+a {text-decoration: none;}
+a:visited {color: blue;}
+a:hover {text-decoration: underline;}
+
+div#topBanner {
+  background: #EEEEEE;
+  height: 70px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-left: #6699CC solid 1px;
+  border-right: #6699CC solid 1px;
+  border-bottom: #DDDDDD solid 1px;
+  overflow: hidden;
+}
+
+div#topBanner div#logo {
+  float: left;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+div#topBanner div#ad {
+  float: right;
+  width: 468px;
+  height: 60px;
+  vertical-align: top;
+  padding: 0;
+  margin-right: 20px;
+}
+
+div#topBanner div#twitterFollowButton {
+  float: right;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+div#topMenu {
+  width: 100%;
+  overflow: hidden;
+  background: #336699;
+  margin:0;
+  padding: 0;
+  border-top: #6699CC solid 1px;
+  border-left: #6699CC solid 1px;
+  border-right: #6699CC solid 1px;
+  border-bottom: #6699CC solid 1px;
+}
+
+div#topMenu div#options {
+  float: left;
+  padding-top: 0.2em;
+  padding-left: 1em;
+  font-weight: bold;
+}
+
+div#topMenu div#search {
+  float: right;
+  font-size: 80%;
+  padding-top: 0;
+  margin-top: 0;
+  padding-right: 1em;
+  text-align: right;
+}
+
+span.menuDivider {
+  color: #BBBBBB;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+/* Menu items */
+a.menuItemSelected
+{
+  text-decoration: none;
+  color: orange;
+}
+
+a.menuItemUnselected
+{
+  text-decoration: none;
+  color: white;
+}
+
+a.menuItemUnselected:hover {
+  color: orange;
+}
+
+div#footer
+{
+  background: #336699;
+  border-left: #6699CC solid 1px;
+  border-right: #6699CC solid 1px;
+  border-bottom: #6699CC solid 1px;
+  clear: both;
+  font-size: 80%;
+  text-align: center;
+}
+
+div#footer a {
+  color: white;
+}
+
+
+div#content
+{
+  background: white;
+  border-left: #6699CC solid 1px;
+  border-right: #6699CC solid 1px;
+  border-bottom: #6699CC solid 1px;
+  width: 100%;
+  overflow: hidden;
+}
+
+div#paddedContent { padding: 1em; }
+
+table.home#twoColumns td {
+  vertical-align: top;
+}
+
+table.home#twoColumns td#left {
+  padding-right: 1em;
+}
+
+table.home#twoColumns td#right {
+  width: 30%;
+}
+
+div.panelTab {
+  float: left;
+  background: #BDD3EA;
+  border-top: #6699CC solid 1px;
+  border-left: #6699CC solid 1px;
+  border-right: #6699CC solid 1px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.2em;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+div.panelTab a {
+  text-decoration: none;
+  color: black;
+}
+
+div.panelTab a:visited {
+  color: black;
+}
+
+div.panelTabInactive {
+  float: left;
+  background: #DDDDDD;
+  border-top: #CCCCCC solid 1px;
+  border-left: #CCCCCC solid 1px;
+  border-right: #CCCCCC solid 1px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.2em;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+div.panelTabInactive a {
+  text-decoration: none;
+  color: #444444;
+}
+
+div.panelTabInactive a:visited {
+  color: #444444;
+}
+div.formTab {
+  float: left;
+  background: #BDD3EA;
+  border-top: #6699CC solid 1px;
+  border-left: #6699CC solid 1px;
+  border-right: #6699CC solid 1px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.2em;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+div.formTab a {
+  text-decoration: none;
+  color: black;
+}
+
+div.formTab a:visited {
+  color: black;
+}
+
+div.formTabInactive {
+  float: left;
+  background: #DDDDDD;
+  border-top: #CCCCCC solid 1px;
+  border-left: #CCCCCC solid 1px;
+  border-right: #CCCCCC solid 1px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.2em;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+div.formTabInactive a {
+  text-decoration: none;
+  color: #444444;
+}
+
+div.formTabInactive a:visited {
+  color: #444444;
+}
+
+div.panel {
+  clear: left;
+  border: #6699CC solid 1px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 0.5em;
+}
+
+
+div.form {
+  clear: left;
+  border: #6699CC solid 1px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: #E0EEEE;
+  padding: 0.5em;
+}
+
+ul#latestItems
+{
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+ul#latestItems li
+{
+  margin-bottom:1em;
+}
+
+ul#searchExamples
+{
+  margin-top: 0.5em;
+}
+
+ul#searchExamples li
+{
+  font-style: italic;
+}
+
+span.ratingDetails {
+  color: DimGrey;
+  font-size: 90%;
+}
+
+div#leftColumn {
+  float: left;
+  max-width: 690px;
+  margin-right: 1em;
+}
+
+div#rightColumn {
+  float: left;
+}
+
+
+p#registeredOffice {
+  color: #632D0E;
+}
+
+h2,h3,h4 {
+  margin-bottom: 0;
+}
+
+dl dt {
+  font-style: italic;
+}
+
+dl dd {
+  margin-left: 2ex;
+  margin-bottom: 1em;
+}
+
+img {
+  border-style: none;
+}

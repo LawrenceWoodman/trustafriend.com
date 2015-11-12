@@ -1,0 +1,5 @@
+The star_filled,png star_clear,png and star_half.png are images altered by Lawrence Woodman from originals at:
+  http://stackoverflow.com/questions/1987524/turn-a-number-into-star-rating-display-using-jquery-and-css
+
+	And are licensed under the 'Creative Commons Attribution-ShareAlike 2.5 Generic License':
+		http://creativecommons.org/licenses/by-sa/2.5/

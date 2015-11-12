@@ -1,0 +1,42 @@
+table.addItem#twoColumns {
+  margin-top: 2em;
+}
+
+table.addItem#twoColumns td {
+  vertical-align: top;
+}
+
+table.addItem#twoColumns td#left {
+  padding-right: 1em;
+}
+
+div.form#service {
+  display: block;
+}
+
+div.form#service textarea#address {
+  clear: left;
+  width: 99%;
+}
+
+div.form#product {
+  display: none;
+}
+
+div.form#review textarea#comment {
+  clear: left;
+  width: 99%;
+}
+
+div.form#review span#name {
+  float: left;
+  vertical-align: top;
+  width: 45%;
+  margin-bottom: 1em;
+}
+
+div.form#review span#website {
+  float: right;
+  width: 45%;
+  margin-bottom: 1em;
+}

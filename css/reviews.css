@@ -1,0 +1,162 @@
+ul.reviews, ul.address
+{
+  margin-top: 0;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+ul.reviews li#businessName, li#model, li#bookTitle
+{
+  font-size: 120%;
+  font-weight: bold;
+}
+
+ul.address li#address, li#postal-code, li#country, li#tel-number, li#website, li#make, li#bookAuthor
+{
+  font-size: 100%;
+}
+
+div.reviews#twoColumns {
+  clear: left;
+  margin-top: 2em;
+  width: 100%;
+}
+
+
+div.reviews#twoColumns h2 {
+  margin-top: 0;
+}
+
+div#reviews_list {
+  clear: left;
+  float: left;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  max-width: 700px;
+}
+
+div.panel#reviews {
+  overflow: auto;
+  margin-bottom: 2em;
+}
+
+div#related {
+  float: left;
+  width: 260px;
+}
+
+div#related div.panel {
+  width: 100%;
+  overflow: hidden;
+}
+
+div#related div.relatedItem {
+  font-size: 90%;
+  width: 250px;
+  margin-bottom: 2em;
+  word-wrap: break-word;
+}
+
+div#related div.smallSquareAd {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 2em;
+}
+
+
+div.reviews#details {
+  width: 100%;
+  margin-bottom: 1em;
+  min-height: 350px;
+  overflow: hidden;
+}
+
+div.reviews#details div#description {
+  float: left;
+  vertical-align: top;
+  margin-right: 1em;
+  max-width: 320px;
+  word-wrap: break-word;
+}
+
+div.reviews#details div.squareAd {
+  float: right;
+  width: 336px;
+  height: 280px;
+  margin-right: 0.5em;
+  margin-top: 1em;
+}
+
+div.reviews#details div#wideAd {
+  float: left;
+  width: 720px;
+  vertical-align: middle;
+}
+
+div.reviews#details div#map {
+  float: right;
+  width: 300px;
+  height: 350px;
+  margin-left: 0.5em;
+  margin-right: 1em;
+}
+
+
+span.reviewer
+{
+  margin-left: 1em;
+  font-weight: bold;
+}
+
+a.reviewer {
+  margin-left: 1em;
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+}
+
+a.reviewer:visited {
+  color: blue;
+}
+
+a.review-url {
+  text-decoration: none;
+}
+
+
+span.review-date
+{
+  float: right;
+  color: gray;
+}
+
+div.comment
+{
+  margin-bottom: 2em;
+}
+
+div#reviews div.ad {
+  margin: 0 auto;
+  width: 468px;
+  height: 60px;
+  margin-bottom: 1em;
+}
+
+div.form#addReview div#addReviewName {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+div.form#addReview div#addReviewWebsite {
+  float: left;
+  margin-bottom: 1em;
+}
+
+div#reviewSomethingElse {
+  float: left;
+  max-width: 380px;
+  margin-right: 2em;
+  margin-top: 1em;
+}

@@ -1,0 +1,18 @@
+ul#tagged_posts { padding: 0; list-style: none; }
+
+div.mainContent {
+  margin-right: 170px;
+}
+
+div.adVertical {
+  clear: right;
+  float: right;
+  width: 160px;
+  margin-bottom: 1em;
+}
+
+div#bottomAd {
+  float: left;
+  width: 728px;
+  margin-top: 2em;
+}

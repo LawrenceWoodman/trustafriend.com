@@ -1,0 +1,24 @@
+table.addBlog#twoColumns td {
+  vertical-align: top;
+}
+
+table.addBlog#twoColumns td#left {
+  padding-right: 1em;
+}
+
+div.panelTab#example {
+  margin-top: 1em;
+}
+
+div.panelTab#exampleProduct {
+  margin-top: 1em;
+}
+
+div.panelTab#exampleService {
+  margin-top: 1em;
+}
+
+div#googleTracking {
+  text-align: center;
+  margin-top: 2em;
+}

